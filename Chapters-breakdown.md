@@ -1,0 +1,60 @@
+
+- [00:00:00](https://www.youtube.com/watch?v=rl0jkP9kOMw) - Introduction
+- [00:06:24](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=384s) - How Humans Represent Numbers (Decimal)
+- [00:18:24](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=1104s) - How Computers Represent Numbers (Introduction to Binary)
+- [00:31:38](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=1898s) - Converting from Decimal to Binary (Human-mode to Computer-mode)
+- [00:46:16](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=2776s) - How does addition work in binary?
+- [00:56:45](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=3405s) - Representing Negative Numbers in Binary
+- [01:09:09](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=4149s) - How to Negate a Number in Binary
+- [01:11:35](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=4295s) - How does subtraction work in binary?
+- [01:16:45](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=4605s) - Introduction to Logic Gates
+- [01:32:19](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=5539s) - Constructing a circuit out of logic gates
+- [01:37:31](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=5851s) - Building a selector with logic gates
+- [01:53:10](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=6790s) - Using logic gates for simple addition of binary numbers (Half-Adder)
+- [02:03:41](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=7421s) - Where the half adder falls short
+- [02:07:14](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=7634s) - Constructing a full adder for correct addition of binary numbers
+- [02:25:36](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=8736s) - Chaining Adders together for multi-bit addition
+- [02:43:46](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=9826s) - Building a full 8-bit addition circuit (ALU)
+- [02:56:05](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=10565s) - Enabling subtraction in our circuit
+- [03:19:57](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=11997s) - Introduction to Sequential Logic
+- [03:27:34](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=12454s) - Storing Data with Logic Gates (Latches)
+- [03:52:52](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=13972s) - Introducing the Flip-Flip, a better Latch
+- [04:09:48](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=14988s) - Bridging back to the ALU
+- [04:11:59](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=15119s) - Saving the output of our ALU
+- [04:20:20](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=15620s) - Manipulating the ALU to build a circuit that counts numbers
+- [04:26:19](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=15979s) - Random Access Memory (RAM)
+- [04:55:26](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=17726s) - Building RAM from Logic Gates
+- [05:18:50](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=19130s) - Connecting RAM and the ALU
+- [05:20:56](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=19256s) - Introducing the BUS
+- [05:40:25](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=20425s) - Adding a display to our computer (7 Segment Display)
+- [05:57:12](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=21432s) - Read Only Memory (ROM)
+- [06:07:52](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=22072s) - Making our display stateful
+- [06:28:55](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=23335s) - What happens when we start chaining operations?
+- [06:32:30](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=23550s) - What are Instructions?
+- [06:34:46](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=23686s&pp=0gcJCTEAlc8ueATH) - The Instruction Register
+- [06:39:12](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=23952s) - Building the first Instruction for our CPU
+- [06:55:31](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=24931s) - Synchronizing the computer, introduction of the Clock
+- [07:05:00](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=25500s) - Program Counter
+- [07:13:03](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=25983s) - Clock Timing of Our First Instruction
+- [07:19:37](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=26377s) - Designing the Instruction Set Architecture (ISA)
+- [07:29:09](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=26949s) - Branching in Code
+- [07:34:37](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=27277s) - Adding a Flags Register to the ALU
+- [07:48:10](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=28090s) - Introducing Control, the "Brains" of our computer
+- [07:53:27](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=28407s) - Implementing Control as ROM
+- [08:14:15](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=29655s&pp=0gcJCTEAlc8ueATH) - In Detail Timing of Each CPU Instruction
+- [09:01:40](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=32500s) - How Condition Instructions are Implemented
+- [09:15:15](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=33315s) - Writing our First Computer Program!
+- [09:29:11](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=34151s) - Executing our First Program
+- [09:44:29](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=35069s) - Counting Fibonacci Sequence on our Computer
+- [10:13:12](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=36792s) - Physically constructing our conceptual computer
+- [10:21:10](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=37270s) - Naming and History of Computer (SAP)
+- [10:27:20](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=37640s) - The original iPhone processor
+- [10:43:12](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=38592s) - ARMv6 Overview
+- [10:57:31](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=39451s) - Hexadecimal Mini-Course
+- [11:04:06](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=39846s) - How does our CPU draw to a screen? (Introduction to MMIO)
+- [11:14:00](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=40440s) - Looking at a real micro-controller
+- [11:17:44](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=40664s) - Programming our computer to turn on a light
+- [11:47:49](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=42469s&pp=0gcJCTEAlc8ueATH) - Running our code on the computer
+- [11:49:55](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=42595s&pp=0gcJCTEAlc8ueATH) - Where I would continue if we had more time
+- [11:53:26](https://www.youtube.com/watch?v=rl0jkP9kOMw&t=42806s) - Conclusion
+

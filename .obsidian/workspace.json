@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ecbb096ff5b43850",
+        "id": "45053888de7f66a4",
         "type": "tabs",
         "children": [
           {
-            "id": "baee7089888f782d",
+            "id": "182eafd73f209a36",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c90ee2d75ff08260",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mindmap - How do Computers Work?.md",
+                "file": "How do Computers Work?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mindmap - How do Computers Work?.md",
+                "file": "How do Computers Work?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -213,8 +212,17 @@
   },
   "active": "7d55bd3d57a7611c",
   "lastOpenFiles": [
-    "Excalidraw/selector-circuit.excalidraw",
+    "Image_Assets/Latch-concept.png",
     "How do Computers Work?.md",
+    "Image_Assets/Sequential-logic.png",
+    "Excalidraw/selector-circuit.excalidraw",
+    "Excalidraw/8-bit-adder-subtractor.excalidraw",
+    "Topics/2's complement.md",
+    "Excalidraw/8-bit-adder.excalidraw",
+    "Excalidraw/half-and-full-adder-gates.excalidraw",
+    "half-adder.excalidraw",
+    "Excalidraw/half-and-full-adder.excalidraw",
+    "Excalidraw/half-adder.excalidraw",
     "Topics/Why NAND gate is called Uiversal Gate?.md",
     "Excalidraw/computer-from-scratch.excalidraw.md",
     "Topics",
@@ -222,17 +230,11 @@
     "Excalidraw/How Computer Works?.md",
     "Topics/Chapters-breakdown.md",
     "Excalidraw/Libraries/local-library.excalidrawlib",
-    "Excalidraw/Libraries",
     "Excalidraw/Drawing 2026-10-02 21.56.20.excalidraw.md",
-    "Excalidraw",
-    "Topics/2's complement.md",
     "Topics/Installation Guide - Digital.md",
     "Image_Assets/Pasted image 20261002003908.png",
     "2's.md",
     "(Installation Guide - Digital).md",
-    "Untitled 1.base",
-    "Untitled.base",
-    "Image_Assets",
     "Untitled.canvas"
   ]
 }

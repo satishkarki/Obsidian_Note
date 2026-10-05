@@ -66,3 +66,39 @@ Now let's visualize these steps in Digital
 2. At step 5, i turned on the value of C to high. Then value of A was turned high from low twice. If you look at output Y, it is following A.
 3. Now at the end of step 11, the value of C was made low. A was again made low to high twice but the Y was low all the time and didn't follow the value of C.
 
+This is called positive latch.
+
+Lets look at the behaviour of positive latch and negative latch side by side:
+![[positive-vs-negative-latch.png]]
+
+```bash
+Positive latch:  C = 1 → transparent (Y follows A)
+                 C = 0 → hold
+
+Negative latch:  C = 0 → transparent (Y follows A)
+                 C = 1 → hold
+```
+### Flip-Flop [[latches-and-flip-flops.excalidraw]]
+ ![[Flip-Flop.png]]
+
+The difference between these two D Flip flops are the position of NOT gate, which decides which clock edge triggers them.
+
+A latch is transparent for a whole clock _level_. A flip-flop samples its input only at one _instant_, the clock edge, and holds that value until the next edge. That makes it much more predictable.
+
+**Left circuit (A, C → Y): negative-edge triggered**
+
+- Latch 1 (master): select = C, so it's transparent when **C = 1**.
+- Latch 2 (slave): select = NOT C, so it's transparent when **C = 0**.
+- Y updates when C falls from 1 to 0.
+
+**Right circuit (A1, C1 → Y1): positive-edge triggered**
+
+- Latch 1 (master): select = NOT C1, so it's transparent when **C1 = 0**.
+- Latch 2 (slave): select = C1, so it's transparent when **C1 = 1**.
+- Y1 updates when C1 rises from 0 to 1.
+
+## Part 6 : Capturing the output of ALU
+
+Now that we have covered the foundation of sequential logic. We will now build the register to store the output of ALU.
+
+Let's head to digital and create our 8-bit register.

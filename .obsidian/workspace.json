@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "How do Computers Work?.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -210,10 +210,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7d55bd3d57a7611c",
+  "active": "182eafd73f209a36",
   "lastOpenFiles": [
-    "Image_Assets/Latch-concept.png",
+    "Excalidraw/latches-and-flip-flops.excalidraw",
     "How do Computers Work?.md",
+    "Image_Assets/Flip-Flop.png",
+    "Image_Assets/positive-vs-negative-latch.png",
+    "Image_Assets/Latch-concept.png",
     "Image_Assets/Sequential-logic.png",
     "Excalidraw/selector-circuit.excalidraw",
     "Excalidraw/8-bit-adder-subtractor.excalidraw",
@@ -229,7 +232,6 @@
     "Excalidraw/computer-from-scratch.excalidraw",
     "Excalidraw/How Computer Works?.md",
     "Topics/Chapters-breakdown.md",
-    "Excalidraw/Libraries/local-library.excalidrawlib",
     "Excalidraw/Drawing 2026-10-02 21.56.20.excalidraw.md",
     "Topics/Installation Guide - Digital.md",
     "Image_Assets/Pasted image 20261002003908.png",

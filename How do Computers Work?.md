@@ -102,3 +102,7 @@ A latch is transparent for a whole clock _level_. A flip-flop samples its input 
 Now that we have covered the foundation of sequential logic. We will now build the register to store the output of ALU.
 
 Let's head to digital and create our 8-bit register.
+
+![[Register-8bit.png]]
+
+Isn't it fascinating ? 

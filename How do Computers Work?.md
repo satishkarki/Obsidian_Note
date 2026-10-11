@@ -105,4 +105,28 @@ Let's head to digital and create our 8-bit register.
 
 ![[Register-8bit.png]]
 
-Isn't it fascinating ? 
+Isn't it fascinating ? Now if we slightly modify our circuit to remove the A inputs and rewire the output of D-FlipFlop back to the adder, we get the Program Counter. Here is how it looks:
+
+![[Program-Counter.png]]
+
+
+
+## Part 7 : RAM Contextualization
+
+Just to grasp the concept, lets assume we have a RAM with four address and each address hold 4bit data. The logic diagram lets us visualize the read and write operation on it.
+
+
+| Address | Address | Value |
+| ------- | ------- | ----- |
+| 00      | 0       | 0111  |
+| 01      | 1       | 0100  |
+| 10      | 2       | 0000  |
+| 11      | 3       | 1010  |
+
+![[4bit-RAM-RW.png]]
+
+
+## Part 8 : Connecting RAM and ALU
+
+Now lets connect the above RAM to a 4bit ALU via a bus
+![[Connecting-RAM-ALU-via-BUS.png]]

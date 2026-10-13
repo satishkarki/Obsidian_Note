@@ -130,3 +130,18 @@ Just to grasp the concept, lets assume we have a RAM with four address and each 
 
 Now lets connect the above RAM to a 4bit ALU via a bus
 ![[Connecting-RAM-ALU-via-BUS.png]]
+
+## Part 9: Seven Segment Display
+
+Its kind of hard to read the binary value. So lets extend the above diagram so that we can hook it up to a seven segment display.
+
+Lets look at the pin out of the display first. [[7-segment-display.excalidraw]]
+
+Now lets build this on digital .
+![[seven-segment-display.png]]
+
+
+Now lets combine this display to our 4-bit adder circuit. Here is how it looks now as a complete 4bit circuit with one display. As for the simplicity we have only used one display, any addition resulting in two digits will not be captured on the output.
+
+![[Complete-circuit-4bitadder-with-display.png]]
+

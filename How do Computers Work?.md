@@ -141,7 +141,45 @@ Now lets build this on digital .
 ![[seven-segment-display.png]]
 
 
-Now lets combine this display to our 4-bit adder circuit. Here is how it looks now as a complete 4bit circuit with one display. As for the simplicity we have only used one display, any addition resulting in two digits will not be captured on the output.
+Now lets combine this display to our 4-bit adder circuit. Here is how it looks now as a complete 4bit circuit with one display. As for the simplicity we have only used one display, any addition resulting in two digits will not be captured on the output. Also, I went on and added a display register to hold output value.
 
 ![[Complete-circuit-4bitadder-with-display.png]]
+
+Now lets tie everything together as an abstraction for a 8bit computer [[computer-overview.excalidraw]]
+
+## Part 10 :  Instruction Register
+Up until now we have been pushing multiple buttons in `digital` to perform addition and substraction. Lets automate the process.
+
+For our computer overview from above, lets consider 8 bit instruction register
+
+| Short name | Full name | Opcode | Description     |
+| ---------- | --------- | ------ | --------------- |
+| LDA        | LOAD -A   | 0001   | Reg A= RAM[arg] |
+So what it means is - for our 8bit instruction register, lower 4 bits are called operand or arg. The upper 4 bits are called opcode.  With 4 bit opcode, we get 2^4 = 16 different instructions.
+
+So in order to perform the LDA instruction, here is what needs to happen in our circuit:
+* Assumption: IR has the right command loaded
+* IR OUT =1
+* MAR IN = 1
+* IR OUT = MAR IN = 0
+* RAM OUT = 1
+* REGISTER A = 1
+* RAM OUT = REGISTER A =0
+
+## Part 11 : Clock
+ Let's try to analyze the above LDA instruction in terms of clock cycle [[clock-timing.excalidraw]]
+The reason for the introduction of clock at this phase is to synchronize all the operation in our 8bit computer. Let's look at the modified diagram of the abstraction view including the clock signal.
+
+Now here how our updated computer overview looks after adding the clock [[computer-overview-with-clock.excalidraw]]
+
+## Part 12 : Program Counter
+  
+Lets start with the assumption- the first address of RAM i.e 0000 in our case is not an address to a value but the first instruction for our Instruction Register (IR)
+
+With this assumption let's introduce the clock cycle for PC in our LDA instruction [[clock-timing-with-PC-Cycle.excalidraw]]
+
+Here is how the abstraction will look like now [[computer-overview-with-PC-Counter.excalidraw]]
+
+## Part 13 : Designing the ISA
+
 

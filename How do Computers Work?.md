@@ -183,3 +183,6 @@ Here is how the abstraction will look like now [[computer-overview-with-PC-Count
 ## Part 13 : Designing the ISA
 
 
+test
+![TEST]([https://res.cloudinary.com/nvcv3s9g/image/upload/v1792177097/cld-sample.jpg](https://res.cloudinary.com/nvcv3s9g/image/upload/v1792177097/cld-sample.jpg))
+

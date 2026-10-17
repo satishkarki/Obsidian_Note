@@ -183,8 +183,38 @@ Here is how the abstraction will look like now [[computer-overview-with-PC-Count
 ## Part 13 : Designing the ISA
 
 
-test
+We have closely looked at how the `LDA` instruction works above. Based on that intuition, here are the other instruction that we designed:
 
-[https://res.cloudinary.com/nvcv3s9g/image/upload/v1792177097/cld-sample.jpg](https://res.cloudinary.com/nvcv3s9g/image/upload/v1792177097/cld-sample.jpg)
+| Short Name | Full Name      | Opcode | Description                              | Argument                  |
+|------------|----------------|--------|------------------------------------------|---------------------------|
+| LDA        | Load-A         | 0001   | Reg A = RAM[arg]                         | Data address in RAM       |
+| ADD        | Addition       | 0010   | Reg A = Reg A + RAM[arg]                 | Data address in RAM       |
+| SUB        | Subtraction    | 0011   | Reg A = Reg A - RAM[arg]                 | Data address in RAM       |
+| STA        | Store A        | 0100   | RAM[arg] = Reg A                         | Data address in RAM       |
+| LDI        | Load Immediate | 0101   | Reg A = arg                              | Literal                   |
+| JMP        | Jump           | 0110   | Program Counter = arg                    | Instruction address in RAM |
+| JC         | Jump if Carry  | 0111   | If Carry Flag = 1, PC = arg, else no-op  | Instruction address in RAM |
+| JZ         | Jump if Zero   | 1000   | If Zero Flag = 1, PC = arg, else no-op   | Instruction address in RAM |
+| OUT        | Display        | 1110   | OUT = Reg A = Display                    | None                      |
+| HLT        | Halt           | 1111   | Stops computer                           | None                      |
+One thing to notice is that the opcode is something we decided upon and it doesn't have to be the same as above. Since we decided on 4 bits for our opcode, our design can have 2^4 =16 instructions.
 
-![test]([https://res.cloudinary.com/nvcv3s9g/image/upload/v1792177097/cld-sample.jpg](https://res.cloudinary.com/nvcv3s9g/image/upload/v1792177097/cld-sample.jpg)
+We have added some components to our computer overview diagram for the instructions we designed above. Let's look at our updated Computer Overview diagram [[computer-overview-v13.excalidraw]]
+
+
+The last instruction in our table is `HLT` and this is how it is implemented in our computer overview diagram [[clock-halt.excalidraw]]
+
+## Part 14: Control Brain
+
+Going back to our `digital` circuit, we have been manually punching in the values and flags to peform additon/substraction.
+
+![[punch-in-value.png]]
+
+How we can automate this part? - On our abstraction of computer overview, up until we left out the control brain part. This is the crux of our tiny computer. It ties together all the parts. 
+
+Let's create this control brain. Before that, lets look at our modified computer overview [[computer-overview-with-control  brain.excalidraw]]    
+
+This control brain is nothing but a control ROM. And we have already create an encoder for our 1U seven-segment display. We will use the same concept to built this ROM.But before that, lets look at all the timing diagram of each CPU instructions.
+
+## Part 15: Timing of each CPU instructions
+

@@ -202,7 +202,7 @@ One thing to notice is that the opcode is something we decided upon and it doesn
 We have added some components to our computer overview diagram for the instructions we designed above. Let's look at our updated Computer Overview diagram [[computer-overview-v13.excalidraw]]
 
 
-The last instruction in our table is `HLT` and this is how it is implemented in our computer overview diagram [[clock-halt.excalidraw]]
+The last instruction in our table is `HLT` and this is how it is implemented in our computer overview diagram   
 
 ## Part 14: Control Brain
 
@@ -212,7 +212,8 @@ Going back to our `digital` circuit, we have been manually punching in the value
 
 How we can automate this part? - On our abstraction of computer overview, up until we left out the control brain part. This is the crux of our tiny computer. It ties together all the parts. 
 
-Let's create this control brain. Before that, lets look at our modified computer overview [[computer-overview-with-control  brain.excalidraw]]    
+Let's create this control brain. Before that, lets look at our modified computer overview 
+[[computer-overview-Final.excalidraw]]
 
 This control brain is nothing but a control ROM. And we have already create an encoder for our 1U seven-segment display. We will use the same concept to built this ROM.But before that, lets look at all the timing diagram of each CPU instructions.
 

@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "How do Computers Work?.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -213,9 +213,11 @@
   },
   "active": "182eafd73f209a36",
   "lastOpenFiles": [
+    "Excalidraw/computer-overview-Final.excalidraw",
+    "How do Computers Work?.md",
+    "computer-overview-with-control  brain.excalidraw.md",
     "Excalidraw/clock-halt.excalidraw",
     "Excalidraw/computer-overview-with-control-brain.excalidraw",
-    "How do Computers Work?.md",
     "Excalidraw/computer-overview-v13.excalidraw",
     "Image_Assets/punch-in-value.png",
     "Excalidraw/computer-overview-13.excalidraw",
@@ -230,7 +232,6 @@
     "Image_Assets/Complete-circuit-4bitadder-with-display.png",
     "Image_Assets/Complete-circuit-4bitadder-with-display.png",
     "Image_Assets/seven-segment-display.png",
-    "Excalidraw/7-segment-display.excalidraw",
     "Image_Assets/Connecting-RAM-ALU-via-BUS.png",
     "Image_Assets/4bit-RAM-RW.png",
     "Image_Assets/Program-Counter.png",
